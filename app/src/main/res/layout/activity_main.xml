@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.getmycalc.sss.phonecall.MainActivity">
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="100dp"
+        android:id="@+id/edittext1"
+        android:layout_marginBottom="150dp"
+        android:hint="Mobile Number"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:shadowColor="#c71010"
+        android:background="#8ee65c"
+        android:text="Call" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edittext1"
+        android:layout_marginLeft="70dp"
+        android:text="1
+@@"
+        android:id="@+id/btn1"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edittext1"
+        android:layout_toRightOf="@+id/btn1"
+        android:text="2
+abc"
+        android:id="@+id/btn2"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edittext1"
+        android:layout_toRightOf="@+id/btn2"
+        android:text="3
+def"
+        android:id="@+id/btn3"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn1"
+        android:layout_marginLeft="70dp"
+        android:text="4
+ghi"
+        android:id="@+id/btn4"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn2"
+        android:layout_toRightOf="@+id/btn4"
+        android:text="5
+jkl"
+        android:id="@+id/btn5"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn2"
+        android:layout_toRightOf="@+id/btn5"
+        android:text="6
+mno"
+        android:id="@+id/btn6"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn4"
+        android:text="7
+pqrs"
+        android:layout_marginLeft="70dp"
+        android:id="@+id/btn7"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn5"
+        android:layout_toRightOf="@+id/btn7"
+        android:text="8
+tuv"
+        android:id="@+id/btn8"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn6"
+        android:layout_toRightOf="@+id/btn8"
+        android:text="9
+wxyz"
+        android:id="@+id/btn9"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn7"
+        android:text="*"
+        android:layout_marginLeft="70dp"
+
+        android:id="@+id/btnstr"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn8"
+        android:layout_toRightOf="@+id/btnstr"
+        android:text="0"
+        android:id="@+id/btn0"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn9"
+        android:layout_toRightOf="@+id/btn0"
+        android:text="#"
+        android:id="@+id/btnhsh"/>
+
+    <Button
+        android:id="@+id/Bdel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/edittext1"
+        android:layout_alignTop="@+id/edittext1"
+        android:layout_toEndOf="@+id/edittext1"
+        android:layout_toRightOf="@+id/edittext1"
+        android:text="Del"
+        android:background="#07000000"/>
+
+</RelativeLayout>
